@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="422.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="farmacie.LoginController">
+    <children>
+      <Button layoutX="112.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="25.0" prefWidth="114.0" text="Log In" textAlignment="CENTER" />
+      <Button fx:id="ContNou" layoutX="112.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonContNou" prefHeight="25.0" prefWidth="114.0" text="Cont Nou" />
+      <PasswordField fx:id="textPassword" layoutX="72.0" layoutY="229.0" prefHeight="25.0" prefWidth="196.0" promptText="Parola" />
+      <TextField fx:id="textUser" layoutX="71.0" layoutY="163.0" prefHeight="25.0" prefWidth="196.0" promptText="User" />
+      <ImageView fitHeight="52.0" fitWidth="54.0" layoutX="143.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Sebica/Documents/NetBeansProjects/Farmacie/resources/icons8-herbal-medicine-40.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="17.0" layoutX="161.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Sebica/Documents/NetBeansProjects/Farmacie/resources/icons8-customer-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="17.0" layoutX="161.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Sebica/Documents/NetBeansProjects/Farmacie/resources/icons8-key-50.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="71.0" layoutY="78.0" prefHeight="25.0" prefWidth="196.0" text="Farmacia TBD" textAlignment="CENTER">
+         <font>
+            <Font name="DejaVu Sans ExtraLight" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="112.0" layoutY="391.0" prefHeight="17.0" prefWidth="114.0" text="Ai uitat parola?" underline="true">
+         <font>
+            <Font name="DejaVu Sans ExtraLight" size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelError1" alignment="CENTER" layoutX="53.0" layoutY="267.0" text="Userul si parola trebuie sa contina cel mult 8 caractere" textAlignment="CENTER" textFill="#e10b0b">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSucces" alignment="CENTER" layoutX="109.0" layoutY="267.0" text="Cont nou inregistrat cu succes!" textAlignment="CENTER" textFill="#05eb1d">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="665.0" prefWidth="1175.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="farmacie.MainWindowController">
+   <children>
+      <TableView fx:id="tableViewTables" layoutX="231.0" layoutY="12.0" prefHeight="639.0" prefWidth="927.0" />
+      <ListView fx:id="listViewTables" layoutX="7.0" layoutY="12.0" prefHeight="201.0" prefWidth="215.0" />
+      <Button layoutX="80.0" layoutY="610.0" mnemonicParsing="false" onAction="#handleButtonModifica" prefHeight="41.0" prefWidth="68.0" text="Modifica" />
+      <Button layoutX="6.0" layoutY="610.0" mnemonicParsing="false" onAction="#handleButtonAdauga" prefHeight="41.0" prefWidth="68.0" text="Adauga" />
+      <Button layoutX="154.0" layoutY="610.0" mnemonicParsing="false" onAction="#handleButtonSterge" prefHeight="41.0" prefWidth="68.0" text="Sterge" />
+      <TextField fx:id="text1" layoutX="9.0" layoutY="245.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text2" layoutX="9.0" layoutY="293.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text3" layoutX="9.0" layoutY="342.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text4" layoutX="9.0" layoutY="391.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text5" layoutX="9.0" layoutY="441.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text6" layoutX="9.0" layoutY="490.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="text7" layoutX="9.0" layoutY="539.0" prefHeight="25.0" prefWidth="215.0" />
+      <Label fx:id="label1" contentDisplay="CENTER" layoutX="7.0" layoutY="228.0" prefHeight="17.0" prefWidth="215.0" text="Denumire" textAlignment="CENTER" />
+      <Label fx:id="label2" contentDisplay="CENTER" layoutX="9.0" layoutY="276.0" prefHeight="17.0" prefWidth="215.0" text="Categorie" textAlignment="CENTER" />
+      <Label fx:id="label3" contentDisplay="CENTER" layoutX="9.0" layoutY="325.0" prefHeight="17.0" prefWidth="215.0" text="Compus" textAlignment="CENTER" />
+      <Label fx:id="label4" contentDisplay="CENTER" layoutX="9.0" layoutY="374.0" prefHeight="17.0" prefWidth="215.0" text="Detalii" textAlignment="CENTER" />
+      <Label fx:id="label5" contentDisplay="CENTER" layoutX="9.0" layoutY="424.0" prefHeight="17.0" prefWidth="215.0" text="Stoc" textAlignment="CENTER" />
+      <Label fx:id="label6" contentDisplay="CENTER" layoutX="9.0" layoutY="473.0" prefHeight="17.0" prefWidth="215.0" text="Pret" textAlignment="CENTER" />
+      <Label fx:id="label7" contentDisplay="CENTER" layoutX="9.0" layoutY="522.0" prefHeight="17.0" prefWidth="215.0" text="Reteta" textAlignment="CENTER" />
+      <Label fx:id="warningLabel" contentDisplay="CENTER" layoutX="7.0" layoutY="564.0" prefHeight="41.0" prefWidth="215.0" textAlignment="CENTER" textFill="RED" />
+      <Text layoutX="9.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="215.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
