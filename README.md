@@ -1,2 +1,2 @@
 # Pharmacy-Management-System
-A pharmacy management system using java and sql
+A work in progress pharmacy management system using java, javafx and sql server.
